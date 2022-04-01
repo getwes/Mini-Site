@@ -12,6 +12,13 @@ body, html{
     height: 80%;
     border-radius: 20px 20px 20px 20px;
   }
+  .container2{
+    background: #a7a7a7;
+    width: 600px;
+    margin: 0 auto;
+    height: 15%;
+    border-radius: 20px 20px 20px 20px;
+  }
 
   .fundo{
     background: url("/img/naruto.jpg");
@@ -22,3 +29,69 @@ body, html{
 	left: 27%;
 	top:5%;
 }
+header#cabecalho img#icone {
+    position: absolute;
+    left: 780px;
+    top: 70px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+   
+  }
+ 
+  header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+ 
+  header#cabecalho h2 {
+    font-family: Titillium web, sans-serif;
+    color: #8888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0PX;
+  }
+
+  nav#menu {
+    display: block;
+  }
+  
+   nav#menu ul {
+     list-style: none;
+     text-transform: uppercase;
+     position: absolute;
+     top: -20px;
+     left: 450px;
+    }
+  
+   nav#menu li {
+     display: inline-block;
+     background-color: #dddddd;
+     padding: 10px;
+     margin: 2px;
+     -webkit-transition: background-color 1s;-o-transition: background-color 1s;transition: background-color 1s;
+   }
+  
+   nav#menu li:hover {
+     background-color: #606060;
+   }
+  
+   nav#menu h1 {
+     display: none;
+   }
+  
+   nav#menu a {
+     color: #000000;
+     text-decoration: none;
+   }
+  
+   nav#menu a:hover {
+     color: #ffff;
+   }
+ 

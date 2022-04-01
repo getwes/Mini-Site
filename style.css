@@ -6,20 +6,19 @@ body, html{
   }
   
   .container{
-    background: #7a6d6d;
+    background: #a7a7a7;
     width: 600px;
     margin: 0 auto;
     height: 80%;
+    border-radius: 20px 20px 20px 20px;
   }
 
   .fundo{
     background: url("/img/naruto.jpg");
 }
-   
-   .img{
-       border-radius: 0%;
-   }
-   
-       
 
-   
+.logo{
+    position:relative;
+	left: 27%;
+	top:5%;
+}

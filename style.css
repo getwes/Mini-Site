@@ -36,7 +36,7 @@ header#cabecalho img#icone {
 }
 
 header#cabecalho {
-    border-bottom: 1px #606060 solid;
+    border-bottom: 1px #ff0000 solid;
     height: 150px;
    
   }
@@ -66,8 +66,8 @@ header#cabecalho {
      list-style: none;
      text-transform: uppercase;
      position: absolute;
-     top: -20px;
-     left: 450px;
+     top: 112px;
+     left: 150px;
     }
   
    nav#menu li {
@@ -94,4 +94,8 @@ header#cabecalho {
    nav#menu a:hover {
      color: #ffff;
    }
- 
+
+   p#linha{
+    border-bottom: 1px #ff0000 solid;
+    height: 150px;
+   }

@@ -20,6 +20,12 @@ body, html{
     border-radius: 20px 20px 20px 20px;
   }
 
+  .nome{
+    position:relative;
+    left: 27%;
+    top:5%;
+  }
+
   .fundo{
     background: url("/img/naruto.jpg");
 }
@@ -67,7 +73,7 @@ header#cabecalho {
      text-transform: uppercase;
      position: absolute;
      top: 112px;
-     left: 150px;
+     left: 630px;
     }
   
    nav#menu li {
